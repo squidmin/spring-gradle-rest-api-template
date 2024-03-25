@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-gradle-rest-api-template
+  cloud:
+    gcp:
+      project-id: lofty-root-378503
+
+logging:
+  level:
+    root: INFO
+    org.squidmin.spring.gradle: DEBUG
+    org.squidmin.spring.gradle.pubsub.publisher: DEBUG
+    org.squidmin.spring.gradle.pubsub.subscriber: DEBUG
+  file:
+    name: application.log
